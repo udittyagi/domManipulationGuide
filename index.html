@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <script src="script.js" defer></script>
+    <style>
+        #main-heading {
+            color: burlywood;
+        }
+
+        #event {
+            height: 250px;
+            width: 250px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .color-blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main-container">
+        <!-- <div id="text-div">
+            <div>Another Text</div> Hello
+        </div> -->
+        <h1 id="main-heading">Main Heading</h1>
+        <!-- This comment is also a node (child node of main, sibling node of ul & h1) -->
+        <ul id="list">
+            <li class="list-item">Item 1</li>
+            <li class="list-item">Item 2</li>
+            <li class="list-item">Item 3</li>
+        </ul>
+        <div id="event">
+            <button id="btn-1" onclick="alert('I love JS')">Click Me 1</button>
+            <button id="btn-2">Click Me 2</button>
+        </div>
+        <a href="https://www.google.com" id="google">Google</a>
+    </main>
+</body>
+
+</html>
